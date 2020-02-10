@@ -1,4 +1,4 @@
-import { Pointcloud } from './../pointcloud.entity';
+import { Pointcloud } from './pointcloud.entity';
 import { PointcloudsService } from './pointclouds.service';
 
 import { Controller, Get } from '@nestjs/common';

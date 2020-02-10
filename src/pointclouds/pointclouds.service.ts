@@ -1,7 +1,7 @@
 import { Injectable } from '@nestjs/common';
 import { Repository } from 'typeorm';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Pointcloud } from './../pointcloud.entity';
+import { Pointcloud } from './pointcloud.entity';
 import { UpdateResult, DeleteResult } from 'typeorm';
 
 @Injectable()
